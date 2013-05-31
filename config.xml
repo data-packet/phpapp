@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+    xmlns:gap = "http://phonegap.com/ns/1.0"
+    id        = "com.data-packet.secondapp"
+    version   = "1.0.0">
+
+<name>Data Packet Second Application</name>
+
+<description>
+Data Packet Second App
+</description>
+
+<author href="http://data-packet.com" email="design@data-packet.com">
+Data Packet Solutions
+</author>
+<preference name="phonegap-version" value="2.7.0" />
+<preference name="orientation" value="default" />
+<preference name="fullscreen" value="true" />
+<preference name="webviewbounce" value="true" />
+<icon src="icon.png" />
+<gap:splash src="splash.png" />
+<feature name="http://api.phonegap.com/1.0/battery"/>
+<feature name="http://api.phonegap.com/1.0/camera"/>
+<feature name="http://api.phonegap.com/1.0/contacts"/>
+<feature name="http://api.phonegap.com/1.0/file"/>
+<feature name="http://api.phonegap.com/1.0/geolocation"/>
+<feature name="http://api.phonegap.com/1.0/media"/>
+<feature name="http://api.phonegap.com/1.0/network"/>
+<feature name="http://api.phonegap.com/1.0/notification"/>
+</widget>
